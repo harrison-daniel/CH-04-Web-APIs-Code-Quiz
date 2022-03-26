@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.scores-header {
+  margin: 0px 20px 0px 60px;
+}
+
+.timer-header {
+  margin: 0px 60px 0px 0px;
+}
+
+.quiz-container {
+  margin: 0 auto;
+}
+
+.quiz-container-header {
+}
