@@ -4,33 +4,81 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/styles.css" />
     <title>Code Quiz</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
   </head>
+
   <body>
+
+    <!-- Start the Quiz-->
+    <div class="quiz-start">
+      <button>Start Quiz</button>
+    </div>
+
+    <!-- Header with HIghScore link and Timer-->
     <header>
       <div class="scores-header"> <!-- View Scores-->
         <a href="#View Scores">View Scores</a>
       </div>
-      <div class="timer-header"> <!-- Timer-->
-        <h3>Timer</h3>
+      <div class="timer"> <!-- Timer-->
+        <div class="timer-text">Time</div>
+        <div class="timer-seconds">60</div>
       </div>
     </header>
-    <div class="quiz-container"> <!-- Quiz Containter -->
-      <div class="quiz-container-header"> <!-- Quiz Container Header-->
-        <h1>Coding Quiz Challenge</h1>
+
+    <!-- Rules Container-->
+    <div class="rules-container"> 
+      <div class="rules-title">
+        <span>Coding Quiz Challenge</span>
       </div>
-      <div> <!-- Quiz Container body-->
-        <p>
-        Try to answer the following code-related questions within the time limit. <br>
-        Keep in mind that incorrect answers will penalize your score/time by 10 seconds!
-        </p>
+      <div class="rules-list">
+        <div class="rule">Try to answer the following code-related questions within the time limit.</div>
+        <div class="rule">Keep in mind that incorrect answers will penalize your score.</div>
+        <div class="rule">Each incorrect answers will deduct 10 points from overall score.</div>
+        <div class="rule">Try to beat your high score and see who is number one!</div>
       </div>
-      <div> <!-- footer-->
-        <div><!-- buttons-->
-        </div>
+      <div class="buttons">
+        <button class="quit">Exit Quiz</button>
+        <button class="restart">Continue</button>
       </div>
     </div>
-    <script src="./assets/js/java.js"></script>
+
+    <!-- Quiz Questions-->
+    <div class="quiz-container"> 
+      <div class="quiz-title">
+        <span>Coding Quiz Challenge</span>
+      </div>
+      <div class="quiz-question">
+        <p>Question #1</p>
+      </div>
+      <div class="quiz-list">
+        <div class="choice">choice 1</div>
+        <div class="choice">choice 2</div>
+        <div class="choice">choice 3</div>
+        <div class="choice">choice 4</div>
+      </div>
+      <div class="buttons">
+        <button class="quit">Exit Quiz</button>
+        <button class="restart">Continue</button>
+      </div>
+    </div>
+
+
+       
+
+      
+
+          
+  
+
+  
+
+    <footer> <!-- footer-->
+      <div><!-- buttons-->
+      </div>
+    </footer>
+    
+    <script src="./assets/js/script.js"></script>
   </body>
+
 </html>

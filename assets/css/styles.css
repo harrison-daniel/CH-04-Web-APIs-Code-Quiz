@@ -16,13 +16,75 @@ header {
   margin: 0px 20px 0px 60px;
 }
 
+.timer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 20px 0px 60px;
+}
 .timer-header {
   margin: 0px 60px 0px 0px;
 }
 
+.quiz-start,
+.rules-container,
 .quiz-container {
-  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.quiz-container-header {
+.quiz-start button {
+}
+
+.rules-container {
+  width: 550px;
+  border-radius: 7px;
+  display: none;
+}
+
+.rules-container .rules-title {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.rules-container .rules-list {
+  padding: 20px 30px;
+}
+
+.rules-container,
+.rules-list,
+.rule {
+  font-weight: bolder;
+}
+
+.rules-container .rules-list .rule span {
+}
+
+.rules-container .buttons {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 30px;
+  border-top: 4px solid black;
+}
+
+.rules-container .buttons button {
+  margin: 0 5px;
+  height: 40px;
+  width: 100%;
+  border: 1px solid transparent;
+}
+
+.buttons button.quit {
+}
+
+.buttons button.restart {
 }
